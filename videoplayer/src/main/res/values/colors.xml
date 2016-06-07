@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO change these values as per necessity in implementing project-->
+    <!-- Video player colors-->
+    <color name="player_title_background">#73000000</color>
+    <color name="player_text_light">#A6FFFFFF</color>
+    <color name="player_title_text">#FFFFFF</color>
+    <color name="player_seekbar_background">#33FFFFFF</color>
+    <color name="transparent_black_color">#8C000000</color>
+    <color name="surface_view_background_color">#263239</color>
+</resources>

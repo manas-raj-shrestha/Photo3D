@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_top_bar"
+        style="@style/player_nav_bar">
+
+        <RelativeLayout
+            android:id="@+id/layout_back_arrow"
+            android:layout_width="@dimen/back_arrow_width"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_back_arrow"
+                style="@style/backArrowStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <!--Added this view to show ripple effect in back press arrow-->
+            <!--  <com.immersion.tactilepay.widgets.ripplebase.RippleView
+                  android:id="@+id/ripple_view_back_press"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:clickable="true" />-->
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_vdo_title"
+            style="@style/videoTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/layout_back_arrow" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/img_play_pause"
+        style="@android:style/MediaButton.Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top_bar"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom_bar"
+        style="@style/player_controller_bar">
+
+        <SeekBar
+            android:id="@+id/seekbar_media_controller"
+            style="@style/mediaControllerStyle"
+            android:layout_toLeftOf="@+id/img_haptic" />
+
+        <TextView
+            android:id="@+id/txt_player_current_time"
+            style="@style/playerTimeTextStyle"
+            android:layout_alignLeft="@id/seekbar_media_controller"
+            android:layout_alignStart="@id/seekbar_media_controller"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/txt_Vdo_End_time"
+            style="@style/playerTimeTextStyle"
+            android:layout_alignEnd="@id/seekbar_media_controller"
+            android:layout_alignRight="@id/seekbar_media_controller"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/img_haptic" />
+
+        <ImageView
+            android:id="@+id/img_haptic"
+            style="@style/player_extra_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <!-- TODO change these values as per necessity in implementing project-->
+
+    <style name="player_icon" />
+
+    <style name="playerTimeTextStyle" />
+
+    <style name="mediaControllerStyle" />
+    <!--video player tile bar back arrow styling-->
+    <style name="backArrowStyle" />
+    <!--video player title text styling-->
+    <style name="videoTitleStyle" />
+
+    <style name="player_extra_button" />
+
+    <style name="player_nav_bar" />
+
+    <style name="player_controller_bar" />
+</resources>

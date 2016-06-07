@@ -1,0 +1,15 @@
+<resources>
+    <!-- TODO change these values as per necessity in implementing project-->
+
+    <!-- Video player -->
+    <string name="status_haptic_file_fetch_error">Haptic file couldn\'t be loaded</string>
+    <string name="status_haptic_file_found_from_sideload">Haptic file found from sideload at %1$s</string>
+    <string name="status_haptic_file_found_from_sdcard">Haptic file found from sdcard at %1$s</string>
+    <string name="status_haptic_file_not_found">Haptic file not present on sideload or sdcard</string>
+    <string name="error_video_doesnt_exists">Sorry ! The video doesn\'t exist</string>
+    <string name="videoplayer_error_message">Video Not Found</string>
+    <string name="keep_time_constant">Keep time constant</string>
+    <string name="set_duration">Set duration</string>
+    <string name="set_rate">Set rate</string>
+    <string name="app_name">Video Player</string>
+</resources>
