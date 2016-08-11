@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/videoplayer/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/videoplayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/E:\\Android\\AndroidStudioProjects\\leapfrog-projects\\TactileVideoFeed\\videoplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/E:\\Android\\AndroidStudioProjects\\leapfrog-projects\\TactileVideoFeed\\videoplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/videoplayer/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/videoplayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/ManasShrestha/Desktop/leapfrog-android/Video360/E:\\Android\\AndroidStudioProjects\\leapfrog-projects\\TactileVideoFeed\\videoplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
